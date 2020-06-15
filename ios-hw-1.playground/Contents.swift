@@ -102,15 +102,11 @@ var isKuwaiti3 = false
  
  
  */
-age1 != age2
-age1 == age3
-age2 != age1
-age2 != age3
-age3 == age1
-age3 != age2
-area1 == area3
-area1 != area2
-area2 != area1
+age1 == age2 && age2 == age3 && age3 == age1
+
+area1 == area3 && area1 != area2  && area2 != area1
+
+
 password != password3
 password != password1
 password != password3
@@ -120,7 +116,10 @@ password1 != password
 password3 != password
 password3 != password1
 age1 != 17 && age2 != 17 && age3 != 17
+age1 == 17 && age2 == 17 && age3 == 17
+
 age1 > 18 && age2 > 18 && age3 > 18
+age1 < 18 && age2 < 18 && age3 < 18
 firstName1 != firstName2
 firstName1 != firstName3
 firstName2 != firstName1
